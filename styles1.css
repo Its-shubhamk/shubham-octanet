@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-image: url('header-background.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #333;
+}
+
+.image-card {
+    text-align: center;
+    color: white;
+    width: 200px;
+}
+
+.image-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.categories {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.category {
+    text-align: center;
+    padding: 10px;
+    width: 30%;
+}
+
+.category h2 {
+    font-size: 2em;
+}
+
+.category p {
+    font-size: 1em;
+    color: #666;
+}
+
+.more-info {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #e4e4e4;
+}
+
+.info-card {
+    text-align: center;
+    padding: 10px;
+    width: 30%;
+}
+
+.info-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.info-card h3 {
+    font-size: 1.5em;
+    margin: 10px 0 5px;
+}
+
+.info-card p {
+    font-size: 1em;
+    color: #666;
+}
+
+footer {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
